@@ -23,4 +23,4 @@ Simulation code and full results
 - Note that estimator names are in the form lambda_{lambda_method}_plugin{plugin_method}_{c}
   - lambda_method: 1 = ANA, 2 = BOOT, 3 = MISE, 4 = CV
   - plugin_method: 1 = ML, 2 = add c, 3 = add c to 0 counts only
-- Basic estimators: 1 = ML, 2 = HA, 3 = add c to 0 counts only, 4 = Jewell, 5 = Agresti
+- Basic estimators numbered as follows: 1 = ML, 2 = HA, 3 = add c to 0 counts only, 4 = Jewell, 5 = Agresti
