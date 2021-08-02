@@ -17,8 +17,7 @@ Simulation code and full results
 - Plots and error values (sq. bias, var, MSE) for different distributions and sample sizes
 
 ### Estimator comparison
-- obtained bandwidths, estimates for each estimator and sample
-- full MSE results
+- full MSE results and bandwidth distribution (mean, sd)
 - includes all plug-in methods and some other comparison methods not included in the report
 - Note that estimator names are in the form lambda_{lambda_method}_plugin{plugin_method}_{c}
   - lambda_method: 1 = ANA, 2 = BOOT, 3 = MISE, 4 = CV
