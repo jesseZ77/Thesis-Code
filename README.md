@@ -1,10 +1,10 @@
 # Thesis-Code
-Simulation code and full results
+Simulation code and full results. See description below for contents of each folder.
 
 ## Code
 - sample_main.R: sample code for simulations (ie. not entire code)
 
-### util
+### Code/util
 - contains utility files for simulation and estimation
 - basic_functions.R: compute p matrix from given odds and margins, simulates multinomial data etc.
 - error_functions.R: calculates log-odds MSE, prob MISE etc.
@@ -13,10 +13,10 @@ Simulation code and full results
 
 ## Results
 
-### MSE approximation
+### Results/MSE approximation
 - Plots and error values (sq. bias, var, MSE) for different distributions and sample sizes
 
-### Estimator comparison
+### Results/Estimator comparison
 - full MSE results and bandwidth distribution (mean, sd)
 - includes all plug-in methods and some other comparison methods not included in the report
 - Note that estimator names are in the form lambda_{lambda_method}_plugin{plugin_method}_{c}
