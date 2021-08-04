@@ -200,3 +200,9 @@ simulation_runner_bootstrap <- function(omega, p0x, px0, n, samples=NULL, m=1000
 
   return(list(estimate=estimate_df, lambda=lambda_df, samples=samples))
 }
+
+compute_hellcor_disc <- function(log_omega) {
+  h2 <- 1 - (exp(log_omega / 4) + 1) / sqrt(2 * (1 + exp(log_omega / 2)))
+  eta <- (sqrt(2) / (sqrt(2) - 1) * h2)^(1/6)
+  return(eta)
+}
