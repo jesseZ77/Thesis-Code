@@ -2,7 +2,7 @@
 Simulation code and full results. See description below for contents of each folder.
 
 ## Code
-- sample_main.R: sample code for simulations (ie. not entire code)
+- sample_main.R: sample code for simulations (ie. not entire code), imports various functions from the files in Code/util
 
 ### Code/util
 - contains utility files for simulation and estimation
